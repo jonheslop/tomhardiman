@@ -3,7 +3,7 @@ tags: work
 layout: layouts/work
 title: EVERYTHING IS RECORDED
 vimeoID: 270738300
-date: 2009-01-01
+date: 2018-01-01
 ---
 
 PRODUCER: LEE GROOMBRIDGE

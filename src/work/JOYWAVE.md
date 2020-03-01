@@ -4,7 +4,8 @@ layout: layouts/work
 title: JOYWAVE
 image: JOYWAVE.jpg
 imageLink: https://wdrv.it/276886bd8
-date: 2010-01-01
+date: 2015-01-01
+secretLink: true
 ---
 
 PRODUCER: ERSAN BESKARDES

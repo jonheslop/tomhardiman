@@ -3,7 +3,7 @@ tags: work
 layout: layouts/work
 title: RADICAL HARDCORE
 vimeoID: 153938407
-date: 2016-01-01
+date: 2019-01-01
 ---
 
 NATALIE GAVIN, SHAHID AHMED

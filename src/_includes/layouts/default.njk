@@ -84,5 +84,12 @@
     <main class="ph4 fl mt6">
       {{ content | safe }}
     </main>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(){
+        if (window.location.search.indexOf('secret') === -1) {
+          document.querySelectorAll('#joywave .image-link')[0].classList.add('dn') 
+        }
+      });
+    </script>
   </body>
 </html>
