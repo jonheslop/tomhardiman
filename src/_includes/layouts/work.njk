@@ -2,10 +2,10 @@
 layout: layouts/default
 ---
 
-<figure class="ma0 pa0">
+<figure class="ma0 pa0" id="{{ title | lower }}">
   {% if image %}
     {% if imageLink %}
-      <a href="{{imageLink}}">
+      <a class="image-link" href="{{imageLink}}">
     {% endif %}
       <img class="db" src="/img/{{ image | url }}" />
     {% if imageLink %}
