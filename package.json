@@ -1,0 +1,24 @@
+{
+  "name": "thomas-hardiman",
+  "version": "1.0.0",
+  "author": "Jon Heslop <jon@jonheslop.com>",
+  "description": "A starter template for 11ty (eleventy) static site generator on glitch.com",
+  "tags": [
+    "eleventy",
+    "11ty",
+    "ssr",
+    "static",
+    "template",
+    "portfolio",
+    "film"
+  ],
+  "scripts": {
+    "now-build": "npm run build",
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  },
+  "license": "MIT"
+}

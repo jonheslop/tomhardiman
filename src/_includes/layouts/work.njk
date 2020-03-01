@@ -1,0 +1,22 @@
+---
+layout: layouts/default
+---
+
+<figure class="ma0 pa0">
+  {% if image %}
+    {% if imageLink %}
+      <a href="{{imageLink}}">
+    {% endif %}
+      <img class="db" src="/img/{{ image | url }}" />
+    {% if imageLink %}
+      </a>
+    {% endif %}
+  {% endif %}
+  {% if vimeoID %}
+  <iframe src="https://player.vimeo.com/video/{{ vimeoID }}?title=0&amp;byline=0&amp;portrait=0" allow="autoplay; fullscreen" allowfullscreen="" width="640" height="360" frameborder="0"></iframe>
+  {% endif %}
+</figure>
+
+<div class="markdown mt3 lh-copy">
+{{ content | safe }}
+</div>

@@ -1,0 +1,27 @@
+---
+tags: work
+layout: layouts/work
+title: MERCEDES
+vimeoID: 392787416
+date: 2011-01-01
+---
+
+PRODUCER: TARQUIN GLASS 
+
+EXECUTIVE PRODUCERS: SARAH PEARSON 
+
+DIRECTOR OF PHOTOGRAPHY: ULA PONTIKOS 
+
+EDITOR: FOUAD GABER @ TRIM 
+
+COLOURIST: JASON WALLIS @ ETC 
+
+COLOUR PRODUCER: OLIVER WHITWORTH @ ETC 
+
+SERVICE (DENMARK): STRICTLY
+
+[http://scandinavia.strictlyproduction.com](http://scandinavia.strictlyproduction.com)
+
+PRODUCER (STRICTLY): MADS PETER BLIDDAL 
+
+Special Thanks: 

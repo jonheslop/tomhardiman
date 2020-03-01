@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <title>{{title or metadata.title}} — Tom Hardiman</title>
+    
+    <meta name="description" content="{{description or metadata.description}}" />
+    <meta property="og:title" content="{{title or metadata.title}} — Tom Hardiman" />
+    {% if not vimeoID -%}
+      <meta property="og:type" content="website"/>
+    {% endif -%}
+    {% if image -%}
+      <meta property="og:image" content="{{image}}" />
+      <meta name="twitter:image" content="{image}}" />
+    {%- endif -%}
+    {% if vimeoID -%}
+      <meta property="og:type" content="video">
+      <meta property="og:video:url" content="https://player.vimeo.com/video/{{vimeoID}}?autoplay=1">
+      <meta property="og:video:secure_url" content="https://player.vimeo.com/video/{{vimeoID}}?autoplay=1">
+      <meta property="og:video:type" content="text/html">
+      <meta property="twitter:player" content="https://player.vimeo.com/video/{{vimeoID}}?autoplay=1">
+    {% endif -%}
+    <meta property="og:description" content="{{description or metadata.description}}" />
+    <meta name="twitter:site" content="@YOUR_TWITTER"/>
+    <meta name="twitter:creator" content="@YOUR_TWITTER"/>
+    <meta name="twitter:description" content="{{description or metadata.description}}" />
+    
+    <style type="text/css">
+      .sidebar-width {
+        width: 300px;
+      }
+      .sidebar-height {
+        height: 300px;
+      }
+
+      @media screen and (min-width: 30em) {
+        .sidebar-offset {
+          margin-left: 300px;
+        }
+      }
+      
+      
+      .f8 {
+        font-size: .625rem;
+      }
+      .markdown * {
+        font-size: .625rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0;
+      }
+      .markdown a:link,
+      .markdown a:visited {
+        color: #000;
+        text-decoration: underline;
+      }
+  </style>
+  </head>
+  <body class="sans-serif h-100 pa4">
+    <nav class="fl mr6 sidebar-width sidebar-height flex flex-column justify-center items-center" style="background-image: url(/img/health-cross-circle2.gif); background-repeat: no-repeat; background-size: contain;">
+      <div>
+        <h1 class="f8 ttu ma0">
+          <a class="link black hover-bg-red db" href="/">Tom Hardiman</a>
+        </h1>
+        <h2 class="f8 ma0 ttu">Contact</h2>
+        <p class="f8 fw7 lh-copy ttu"><strong>Somesuch</strong><br/>
+          Sarah Pearson<br/>
+          <a class="link black hover-bg-orange underline" href="mailto:sarah@somesuch.co">sarah@somesuch.co</a><br/>
+          <a class="link black hover-bg-yellow underline" href="tel:00442034871270">+44 (0)20 3487 1270</a>
+        </p>
+
+        <p class="f8 fw7 ttu ma0 lh-copy">Saskia Whinney<br/>
+          <a class="link black hover-bg-green underline" href="mailto:saskia@somesuch.co">saskia@somesuch.co</a><br/>
+          <a class="link black hover-bg-blue underline" href="tel:00442034871270">+44 (0)20 3487 1270</a><br/>
+
+        <p class="f8 fw7 ttu lh-copy mb0"><strong>Troika</strong><br/>
+          Matimba Kabalika<br/>
+          <a class="link black hover-bg-purple underline" href="tel:00442073367868">+44 (0)20 7336 7868</a>
+        </p>
+      </div>
+    </nav>
+    <main class="ph4 fl mt6">
+      {{ content | safe }}
+    </main>
+  </body>
+</html>

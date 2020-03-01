@@ -1,0 +1,27 @@
+---
+layout: layouts/default
+---
+
+{%- for item in collections.work | reverse -%}
+<article class="mb5">
+    <figure class="ma0 pa0">
+      {% if item.data.image %}
+        {% if item.data.imageLink %}
+          <a href="{{item.data.imageLink | url}}">
+        {% endif %}
+          <img class="db" src="/img/{{ item.data.image | url }}" />
+        {% if item.data.imageLink %}
+          </a>
+        {% endif %}
+      {% endif %}
+      {% if item.data.vimeoID %}
+      <iframe src="https://player.vimeo.com/video/{{ item.data.vimeoID }}?title=0&amp;byline=0&amp;portrait=0" allow="autoplay; fullscreen" allowfullscreen="" width="640" height="360" frameborder="0"></iframe>
+      {% endif %}
+    </figure>
+    <h3 class="f8 tr ttu ma0"><a class="dib link black hover-bg-gold pa2" href="{{item.url}}">
+      {{item.data.linkText}} ↦
+    </a></h3>
+</article>
+{%- endfor -%}
+
+{{ content | safe }}
