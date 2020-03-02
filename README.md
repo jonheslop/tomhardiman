@@ -8,7 +8,7 @@ Any images should go in the [/img](/img) folder
 
 For CSS we use Tachyons, the docs are here - http://tachyons.io/docs/
 
-Every time you save a change, (in Git that is called a commit) Zeit will redeploy the website. There will be a 30 sec delay
+Every time you save a change, (in Git that is called a commit) Zeit will redeploy the website. There will be a 15sec delay
 
 [zeit]: https://zeit.co/
 [markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
