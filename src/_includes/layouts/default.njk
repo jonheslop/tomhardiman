@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
     <title>{{title or metadata.title}} — Tom Hardiman</title>
-    
+
     <meta name="description" content="{{description or metadata.description}}" />
     <meta property="og:title" content="{{title or metadata.title}} — Tom Hardiman" />
     {% if not vimeoID -%}
@@ -26,7 +26,7 @@
     <meta name="twitter:site" content="@YOUR_TWITTER"/>
     <meta name="twitter:creator" content="@YOUR_TWITTER"/>
     <meta name="twitter:description" content="{{description or metadata.description}}" />
-    
+
     <style type="text/css">
       .sidebar-width {
         width: 300px;
@@ -40,8 +40,6 @@
           margin-left: 300px;
         }
       }
-      
-      
       .f8 {
         font-size: .625rem;
       }
@@ -62,23 +60,22 @@
     <nav class="fl mr6 sidebar-width sidebar-height flex flex-column justify-center items-center" style="background-image: url(/img/health-cross-circle2.gif); background-repeat: no-repeat; background-size: contain;">
       <div>
         <h1 class="f8 ttu ma0">
-          <a class="link black hover-bg-red db" href="/">Tom Hardiman</a>
+          <a class="link black hover-bg-gold db" href="/">Thomas Hardiman</a>
         </h1>
-        <h2 class="f8 ma0 ttu">Contact</h2>
-        <p class="f8 fw7 lh-copy ttu"><strong>Somesuch</strong><br/>
-          Sarah Pearson<br/>
-          <a class="link black hover-bg-orange underline" href="mailto:sarah@somesuch.co">sarah@somesuch.co</a><br/>
-          <a class="link black hover-bg-yellow underline" href="tel:00442034871270">+44 (0)20 3487 1270</a>
+        <h2 class="f8 mt3 ttu">Contact</h2>
+        <p class="f8 fw7 lh-copy ttu"><strong>USA: CAA</strong><br/>
+          <a class="link black hover-bg-orange underline" href="mailto:sue.carlsasst@caa.com">Sue Carls</a>,
+          Craig Gering
         </p>
 
-        <p class="f8 fw7 ttu ma0 lh-copy">Saskia Whinney<br/>
-          <a class="link black hover-bg-green underline" href="mailto:saskia@somesuch.co">saskia@somesuch.co</a><br/>
-          <a class="link black hover-bg-blue underline" href="tel:00442034871270">+44 (0)20 3487 1270</a><br/>
-
-        <p class="f8 fw7 ttu lh-copy mb0"><strong>Troika</strong><br/>
-          Matimba Kabalika<br/>
-          <a class="link black hover-bg-purple underline" href="tel:00442073367868">+44 (0)20 7336 7868</a>
+        <p class="f8 fw7 ttu lh-copy mb0"><strong>UK: THE B SIDE</strong><br/>
+          <a class="link black hover-bg-green underline" href="mailto:molly@theb-side.co.uk">MATIMBA KABALIKA</a>
         </p>
+
+        <p class="f8 fw7 ttu lh-copy mb0"><strong>UK: SOMESUCH</strong><br/>
+          <a class="link black hover-bg-green underline" href="mailto:tania@somesuch.co">TANIA DINIZ</a>, <a class="link black hover-bg-green underline" href="mailto:thea@somesuch.co">THEA SUN</a>
+        </p>
+
       </div>
     </nav>
     <main class="ph4 fl mt6">
@@ -86,8 +83,9 @@
     </main>
     <script>
       document.addEventListener("DOMContentLoaded", function(){
-        if (window.location.search.indexOf('secret') === -1) {
-          document.querySelectorAll('#joywave .image-link')[0].classList.add('dn') 
+        if (window.location.search.indexOf('secret') !== -1) {
+          document.querySelectorAll('#joywave .image-link')[0].href = 'https://wdrv.it/276886bd8'
+          document.querySelectorAll('#joywave .link')[0].href = document.querySelectorAll('#joywave .link')[0].href + '?secret'
         }
       });
     </script>
