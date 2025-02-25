@@ -22,8 +22,5 @@ SERVICE (ITALY): OLYMPIQUE
 
 PRODUCER (OLYMPIQUE): TOMMASO FAJDIGA
 
-[https://www.olympique.it](https://www.olympique.it)
-
 PRODUCER (OLYMPIQUE): SILVIA FAZIO
 
-Special Thanks:

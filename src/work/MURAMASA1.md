@@ -2,7 +2,7 @@
 tags: work
 layout: layouts/work
 title: MURA MASA1
-image: MURAMASA3.jpg
+vimeoID: 395157644
 date: 2012-01-01
 ---
 
@@ -34,12 +34,7 @@ SERVICE (ITALY): OLYMPIQUE
 
 PRODUCER (OLYMPIQUE): TOMMASO FAJDIGA
 
-[https://www.olympique.it](https://www.olympique.it)
-
 PRODUCER (OLYMPIQUE): SILVIA FAZIO
 
 2ND UNIT PRODUCER: MCCRAY SUTHERLIN
 
-EXECUTIVE PRODUCERS: SASKIA WHINNEY
-
-Special Thanks:

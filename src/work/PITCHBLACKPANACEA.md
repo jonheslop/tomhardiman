@@ -7,6 +7,9 @@ trailer: true
 date: 2020-01-01
 ---
 
+ <p style="text-align:right;"> TRAILER 
+	<P> <hr style="height:2pt; visibility:hidden;" />
+		<iframe src="https://player.vimeo.com/video/176746458?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 MARTHA PLIMPTON, GBENGA AKINNAGBE, DAPHNE RUBIN-VEGA
 
 ANIMATION BY CHRIS CORNWELL

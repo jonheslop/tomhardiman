@@ -3,6 +3,7 @@ tags: work
 layout: layouts/work
 title: MURA MASA2
 image: MURAMASA.jpg
+imageLink: http://thomashardiman.co/MMf4x.html
 date: 2014-01-01
 ---
 
@@ -34,4 +35,3 @@ EXECUTIVE PRODUCERS: SASKIA WHINNEY
 
 Special Thanks: BROWNIAN
 
-[www.brownianmotion.co.uk](www.brownianmotion.co.uk)

@@ -3,12 +3,16 @@ tags: work
 layout: layouts/work
 title: JOYWAVE
 image: JOYWAVE.jpg
-imageLink: https://wdrv.it/276886bd8
+imageLink: http://thomashardiman.co/work/JOYWAVE/
+vimeoID: 395181528
 date: 2015-01-01
 secretLink: true
 ---
 
-PRODUCER: ERSAN BESKARDES
+ <p style="text-align:right;"> . 
+	<P> <hr style="height:2pt; visibility:hidden;" />
+
+PRODUCER: TARQUIN GLASS
 
 COMMISSIONER: CRAIG COX
 
@@ -25,8 +29,6 @@ GAFFER: PETER BISHOP
 GRIP: ADRIAN BARRY
 
 SFX: MACHINE SHOP
-
-[http://www.machineshop.co.uk](http://www.machineshop.co.uk)
 
 VFX SUPERVISOR: NINA MOSAND @ THE MILL
 

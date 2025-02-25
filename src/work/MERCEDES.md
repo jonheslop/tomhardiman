@@ -3,8 +3,13 @@ tags: work
 layout: layouts/work
 title: MERCEDES
 vimeoID: 392787416
+full film ↦: true
+
 date: 2013-01-01
 ---
+<p style="text-align:right;"> TRAILER 
+	<P> <hr style="height:2pt; visibility:hidden;" />
+
 
 PRODUCER: TARQUIN GLASS
 
@@ -20,8 +25,6 @@ COLOUR PRODUCER: OLIVER WHITWORTH @ ETC
 
 SERVICE (DENMARK): STRICTLY
 
-[http://scandinavia.strictlyproduction.com](http://scandinavia.strictlyproduction.com)
-
 PRODUCER (STRICTLY): MADS PETER BLIDDAL
 
-Special Thanks:
+<br>
