@@ -3,7 +3,7 @@ layout: layouts/default
 ---
 
 <figure class="ma0 pa0" id="{{ title | lower }}">
-  {% if image %}
+  {% if image and not secretLink %}
     {% if imageLink %}
       <a class="image-link" href="{{imageLink}}">
     {% endif %}
@@ -17,6 +17,6 @@ layout: layouts/default
   {% endif %}
 </figure>
 
-<div class="markdown mt3 lh-copy">
+<div class="markdown mt1 lh-copy">
 {{ content | safe }}
 </div>

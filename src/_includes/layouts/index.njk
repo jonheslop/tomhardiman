@@ -14,8 +14,10 @@ layout: layouts/default
           </a>
         {% endif %}
       {% endif %}
-      {% if item.data.vimeoID %}
-      <iframe src="https://player.vimeo.com/video/{{ item.data.vimeoID }}?title=0&amp;byline=0&amp;portrait=0" allow="autoplay; fullscreen" allowfullscreen="" width="640" height="360" frameborder="0"></iframe>
+      {% if not item.data.secretLink %}
+        {% if item.data.vimeoID %}
+        <iframe src="https://player.vimeo.com/video/{{ item.data.vimeoID }}?title=0&amp;byline=0&amp;portrait=0" allow="autoplay; fullscreen" allowfullscreen="" width="640" height="360" frameborder="0"></iframe>
+        {% endif %}
       {% endif %}
     </figure>
     {% if item.data.trailer %}
