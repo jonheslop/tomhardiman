@@ -13,6 +13,8 @@ EXECUTIVE PRODUCERS: eva yates, lizzie francke, jim mooney
 
 DIRECTOR OF PHOTOGRAPHY: robbie ryan
 
+HAIR STYLIST: Eugene Souleiman
+
 PRODUCTION DESIGNER: GARY WILLIAMSON
 
 EDITOR: FOUAD GABER @ TRIM
