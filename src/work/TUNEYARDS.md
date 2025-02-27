@@ -1,0 +1,29 @@
+---
+tags: furtherwork
+layout: layouts/work
+title: TUNEYARDS
+vimeoID: 392787416
+date: 2013-01-01
+order: 5
+---
+<p style="text-align:right;"> TRAILER
+	<P> <hr style="height:2pt; visibility:hidden;" />
+
+
+PRODUCER: TARQUIN GLASS
+
+EXECUTIVE PRODUCERS: SARAH PEARSON
+
+DIRECTOR OF PHOTOGRAPHY: ULA PONTIKOS
+
+EDITOR: FOUAD GABER @ TRIM
+
+COLOURIST: JASON WALLIS @ ETC
+
+COLOUR PRODUCER: OLIVER WHITWORTH @ ETC
+
+SERVICE (DENMARK): STRICTLY
+
+PRODUCER (STRICTLY): MADS PETER BLIDDAL
+
+<br>

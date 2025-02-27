@@ -2,7 +2,7 @@
 layout: layouts/default
 ---
 
-{%- for item in collections.featuredWork -%}
+{%- for item in collections.furtherWork -%}
 <article class="mb5" class="video" id="{{ item.data.title | lower }}">
     <figure class="ma0 pa0">
       {% if item.data.image %}
@@ -27,9 +27,5 @@ layout: layouts/default
     {% endif %}
 </article>
 {%- endfor -%}
-
-<div class="tr">
-<a href="/further-work" class="f8 dib link black hover-bg-gold pa2">FUTHER WORK ↦</a>
-</div>
 
 {{ content | safe }}

@@ -2,14 +2,12 @@
 tags: work
 layout: layouts/work
 title: JOYWAVE
-image: JOYWAVE.jpg
-imageLink: http://thomashardiman.co/work/JOYWAVE/
-vimeoID: 395181528
+vimeoID: 1005776748
 date: 2015-01-01
-secretLink: true
+order: 8
 ---
 
- <p style="text-align:right;"> . 
+ <p style="text-align:right;"> .
 	<P> <hr style="height:2pt; visibility:hidden;" />
 
 PRODUCER: TARQUIN GLASS

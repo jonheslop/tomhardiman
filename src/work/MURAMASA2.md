@@ -1,10 +1,11 @@
 ---
-tags: work
+tags: furtherwork
 layout: layouts/work
 title: MURA MASA2
 image: MURAMASA.jpg
 imageLink: http://thomashardiman.co/MMf4x.html
 date: 2014-01-01
+order: 3
 ---
 
 PRODUCER: ERSAN BESKARDES
@@ -34,4 +35,3 @@ COLOUR PRODUCER: BRUCE LANGFIELD @ THE MILL
 EXECUTIVE PRODUCERS: SASKIA WHINNEY
 
 Special Thanks: BROWNIAN
-

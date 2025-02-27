@@ -4,6 +4,7 @@ layout: layouts/work
 title: SLENDER BODIES
 vimeoID: 212497625
 date: 2016-01-01
+order: 6
 ---
 
 PRODUCER: ABI ATKINSON

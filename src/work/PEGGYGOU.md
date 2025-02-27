@@ -4,6 +4,7 @@ layout: layouts/work
 title: PEGGY GOU, IT GOES LIKE NANANA
 vimeoID: 1059666422
 date: 2013-01-02
+order: 9
 ---
 
 PRODUCER: ALEX CHAMBERLAIN
