@@ -2,10 +2,9 @@
 tags: work
 layout: layouts/work
 title: PITCH BLACK PANACEA
-vimeoID: 392785220
-trailer: true
+vimeoID: 358782173
 date: 2020-01-01
-order: 4
+order: 5
 ---
 
 MARTHA PLIMPTON, GBENGA AKINNAGBE, DAPHNE RUBIN-VEGA
